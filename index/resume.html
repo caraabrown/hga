@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Cara A. Brown, MBA — HGA Director of Design Insight</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root { --black:#0d0d0b; --white:#ffffff; --mid:#888680; --rule:#dddad3; --ink:#1e1e1c; --navy:#1a2744; --accent:#2a4080; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Outfit',sans-serif;background:#7a7975;-webkit-font-smoothing:antialiased;color:var(--ink);}
+.print-bar{position:fixed;top:0;left:0;right:0;z-index:999;background:var(--navy);padding:10px 36px;display:flex;align-items:center;justify-content:space-between;}
+.print-bar p{font-size:12px;color:rgba(246,245,241,.6);font-weight:300;}
+.print-bar p strong{color:#f6f5f1;font-weight:600;}
+.btn-print{background:#f6f5f1;color:var(--black);font-family:'Outfit',sans-serif;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:8px 22px;border:none;cursor:pointer;}
+.doc{padding:56px 0 48px;display:flex;flex-direction:column;align-items:center;gap:0;}
+.page{width:8.5in;height:11in;background:#ffffff;box-shadow:0 8px 48px rgba(0,0,0,.38);padding:.38in .7in .38in;display:flex;flex-direction:column;overflow:hidden;page-break-after:always;break-after:page;}
+.page+.page{margin-top:28px;}
+.resume-name{font-size:25pt;font-weight:700;letter-spacing:-.02em;color:var(--black);line-height:1;margin-bottom:.04in;}
+.resume-name span{font-weight:300;}
+.resume-title{font-size:8.5pt;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:.08in;line-height:1.4;}
+.resume-contact{font-size:7.5pt;font-weight:300;color:var(--mid);letter-spacing:.03em;margin-bottom:.14in;}
+.hbar{height:2px;background:var(--accent);margin-bottom:.14in;}
+.sec-label{font-size:6pt;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:.04in;margin-bottom:.08in;margin-top:.14in;}
+.synopsis{font-size:7.5pt;font-weight:400;color:var(--ink);line-height:1.65;}
+.synopsis strong{font-weight:600;color:var(--black);}
+.expertise-grid{display:grid;grid-template-columns:1fr 1fr;gap:.04in .18in;}
+.exp-cat{font-size:6pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin-bottom:.015in;}
+.exp-detail{font-size:7pt;font-weight:300;color:var(--mid);line-height:1.5;}
+.job{margin-bottom:.12in;}
+.job:last-child{margin-bottom:0;}
+.job-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:.015in;}
+.job-org{font-size:8.5pt;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--black);}
+.job-date{font-size:7pt;font-weight:300;color:var(--mid);letter-spacing:.04em;white-space:nowrap;}
+.job-title{font-size:8pt;font-weight:500;color:var(--accent);margin-bottom:.06in;}
+ul.bullets{list-style:none;display:flex;flex-direction:column;gap:.038in;}
+ul.bullets li{font-size:7.5pt;color:var(--ink);line-height:1.58;padding-left:.15in;position:relative;}
+ul.bullets li::before{content:'—';position:absolute;left:0;color:var(--accent);font-weight:600;}
+ul.bullets li strong{font-weight:600;color:var(--black);}
+.addl-item{margin-bottom:.055in;}
+.addl-org{font-size:8pt;font-weight:700;color:var(--black);text-transform:uppercase;letter-spacing:.03em;}
+.addl-desc{font-size:7pt;font-weight:300;color:var(--ink);line-height:1.52;}
+.edu-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:.04in;}
+.edu-deg{font-size:8pt;font-weight:600;color:var(--black);}
+.edu-school{font-size:7.5pt;font-weight:300;color:var(--mid);}
+.edu-year{font-size:7pt;font-weight:300;color:var(--mid);}
+.certs{font-size:7pt;font-weight:300;color:var(--ink);line-height:1.6;margin-top:.04in;}
+.resume-footer{margin-top:auto;padding-top:.12in;border-top:1px solid var(--rule);display:flex;justify-content:space-between;font-size:6pt;font-weight:300;letter-spacing:.05em;color:var(--mid);}
+@media print{
+  @page{size:letter;margin:0;}
+  body{background:#ffffff !important;}
+  .print-bar{display:none !important;}
+  .doc{padding:0;gap:0;}
+  .page{box-shadow:none;margin-top:0 !important;height:11in;page-break-after:always;break-after:page;}
+  .page:last-child{page-break-after:avoid;break-after:avoid;}
+}
+</style>
+</head>
+<body>
+<div class="print-bar">
+  <p><strong>To save as PDF:</strong> Chrome → File → Print → Destination: Save as PDF → Margins: None · ✓ Background graphics → Save</p>
+  <button class="btn-print" onclick="window.print()">Save as PDF</button>
+</div>
+<div class="doc">
+
+<!-- PAGE 1 -->
+<div class="page">
+  <div class="resume-name">Cara A. Brown, <span>MBA</span></div>
+  <div class="resume-title">Director, Design Insight &nbsp;·&nbsp; Organizational Service Design &nbsp;·&nbsp; Research &amp; Innovation &nbsp;·&nbsp; Human-Centered Strategy</div>
+  <div class="resume-contact">(202) 489-9901 &nbsp;·&nbsp; hi@caraabrown.com &nbsp;·&nbsp; linkedin.com/in/caraabrown &nbsp;·&nbsp; caraabrown.com &nbsp;·&nbsp; Portfolio available upon request</div>
+  <div class="hbar"></div>
+
+  <div class="sec-label" style="margin-top:0;">Executive Summary</div>
+  <p class="synopsis">Design strategist and organizational service design leader with 15+ years generating research-driven insight, building human-centered practice capabilities, and translating complex findings into transformative organizational action. Proven record of defining and leading research agendas that connect human experience to strategic direction — across enterprise operations, community and social infrastructure, civic environments, and built-environment-adjacent contexts. <strong>Built the first enterprise-wide carrier experience measurement system at Kroger. Designed Mapping Success — a repeatable research methodology that secured a $500K PropelNext grant. Revived a $270M-exposure enterprise initiative by translating field research into financial language that changed a VP meeting in real time.</strong> Expert in mixed-method research, change management, stakeholder facilitation, KPI design, and translating insight into executable roadmaps. MBA, Design Strategy — California College of the Arts, ranked #2 design program globally.</p>
+
+  <div class="sec-label">Core Competencies</div>
+  <div class="expertise-grid">
+    <div>
+      <div class="exp-cat">Research &amp; Insight Generation</div>
+      <div class="exp-detail">Mixed-method research · Qualitative &amp; quantitative methods · Human-centered research · Ethnographic &amp; contextual inquiry · Usability &amp; heuristic evaluation · Insight synthesis · Evidence-based design · Impact measurement · Research-to-strategy translation</div>
+    </div>
+    <div>
+      <div class="exp-cat">Organizational Service Design &amp; Strategy</div>
+      <div class="exp-detail">Organizational service design strategy · End-to-end service design · Service blueprinting · Journey mapping · Experience architecture · Operating model design · 0-to-1 service design · Lean &amp; efficiency-based methodologies · KPI &amp; performance framework design</div>
+    </div>
+    <div>
+      <div class="exp-cat">Practice Leadership &amp; Team Development</div>
+      <div class="exp-detail">Design practice leadership · Transdisciplinary team building · Talent cultivation · Culture development · Strategic planning &amp; budgeting · Cross-functional partnership · Thought leadership · Knowledge management &amp; tool development</div>
+    </div>
+    <div>
+      <div class="exp-cat">Facilitation &amp; Stakeholder Engagement</div>
+      <div class="exp-detail">Executive workshop facilitation · Inclusive co-design · Design thinking facilitation · Change management · Decision-support frameworks · Consensus building · Cross-functional alignment · Influence without authority · Community &amp; stakeholder engagement</div>
+    </div>
+    <div>
+      <div class="exp-cat">Tools</div>
+      <div class="exp-detail">Figma · Miro · FigJam · Mural · Adobe Creative Suite · Confluence · Google Workspace · Microsoft 365</div>
+    </div>
+  </div>
+
+  <div class="sec-label">Professional Experience</div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-org">Kroger</span>
+      <span class="job-date">03/2022 – 09/2025 &nbsp;·&nbsp; Cincinnati, OH (Remote)</span>
+    </div>
+    <div class="job-title">Senior Service Designer — Enterprise Transportation &amp; Logistics</div>
+    <ul class="bullets">
+      <li>Designed and led the organization's first enterprise-wide human experience research and measurement program for carrier operations across 34 distribution centers — diagnosing root causes through field visits, contextual inquiry, journey mapping, and service blueprinting. Translated human insight into a funded, institutionalized service function. <strong>NPS: −36 → +49. Driver satisfaction: 36% → 74%.</strong> EVP of Supply Chain institutionalized NPS as a permanent DC health metric; program presented at the Qualtrics Conference by the Chief HR Officer.</li>
+      <li>Authored the 2024–2027 Transportation Strategy — leading structured decision-making workshops, synthesizing cross-functional research into a 15-element operating system, and producing clear roadmaps that built alignment across a resistant, politically complex organization. <strong>Aligned $24M in annual technology investment to a coherent strategic direction for the first time.</strong> Thought leadership adopted externally by Deloitte; cited by 84.51° as the organizational standard for their entire merchandising division.</li>
+      <li>Revived a $270M-exposure trailer-tracking initiative dormant for three years by translating field research from five distribution center visits into financial language executives could act on. One-page insight snapshot redirected a failing VP meeting in real time. <strong>Built the 220% ROI case, secured three VP sign-offs, and enabled enterprise-wide rollout in four months.</strong></li>
+      <li>Served as Service Design Lead for the $16B Kroger–Albertsons merger integration — developing a 4-level blueprint framework from scratch, producing 75% of all business process documentation, and facilitating hypothesis-led workshops that surfaced operational ground truth concealed from corporate visitors. Identified undocumented system interdependencies that drove a structural leadership decision. Managed five design counterparts simultaneously.</li>
+    </ul>
+  </div>
+
+  <div class="resume-footer">
+    <span>Cara A. Brown, MBA</span><span>Page 1 of 2</span><span>caraabrown.com</span>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <div class="hbar" style="margin-bottom:.16in;"></div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-org">East Oakland Youth Development Center</span>
+      <span class="job-date">02/2015 – 07/2016 &nbsp;·&nbsp; Oakland, CA</span>
+    </div>
+    <div class="job-title">Director of Communications &amp; Assessments</div>
+    <ul class="bullets">
+      <li>Designed Mapping Success — a proprietary research methodology translating qualitative human outcomes into funder-credible quantitative evidence. Applied mixed-method research across 20+ years of participant experience; synthesized findings into measurable indicators and executive-legible visualizations. <strong>Supported a $500K PropelNext grant — one of the sector's most competitive. Organizational funding increased following its introduction.</strong> CEO adopted it as her primary decision-support tool in every grant meeting and her TED Talk. Named the office "The Results Room."</li>
+      <li>Led the New Era organizational transformation — redesigning identity, messaging, and stakeholder experience for an organization with 40+ years of impact but no unified infrastructure. Engaged four distinct stakeholder groups (funders, community, partners, staff) through inclusive facilitation processes. <strong>$35M+ in resources secured within 8 months.</strong> Managed partnerships with Southwest Airlines, Lexus, and the Golden State Warriors. Founded the organization's first Advisory Board.</li>
+      <li>Led service evaluation and systems assessment across youth programming — mapping end-to-end journeys for students, families, staff, and funders to identify experience gaps, operational breakdowns, and governance blind spots within a resource-constrained delivery model.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-org">The RealReal</span>
+      <span class="job-date">03/2019 – 03/2021 &nbsp;·&nbsp; Brisbane, CA</span>
+    </div>
+    <div class="job-title">Service &amp; Operations Design — Fine Jewelry &amp; Watches (Regulated Environment)</div>
+    <ul class="bullets">
+      <li>Applied Lean and systems diagnosis methods to redesign operational workflows across five U.S. authentication centers — reducing waste, clarifying handoffs, and optimizing processing in a high-risk environment. <strong>10% reduction in operational shrink, $50K in recovered high-value jewelry, 15% inventory accuracy improvement, client inquiry backlog reduced 80%.</strong></li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-org">GardaWorld</span>
+      <span class="job-date">12/2010 – 03/2012 &nbsp;·&nbsp; Boca Raton, FL</span>
+    </div>
+    <div class="job-title">Global Marketing Coordinator + Employee Communications</div>
+    <ul class="bullets">
+      <li>Diagnosed a failed predecessor effort and redesigned GardaCares from research to launch in three months — primary research into post-M&amp;A cultural fragmentation across a 20,000-person bilingual workforce; distributed recognition infrastructure across physical and digital channels. <strong>Employee theft: 20% → 0.5%. Absenteeism: 30% → 5%.</strong> Selected to present quarterly findings to the executive board in Montreal.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-org">Lamont Bishop Gallery</span>
+      <span class="job-date">05/2010 – 07/2016 &nbsp;·&nbsp; Washington, DC + Brooklyn, NY</span>
+    </div>
+    <div class="job-title">Founding Director — Strategy &amp; Operations</div>
+    <ul class="bullets">
+      <li>Founded and designed the complete service and operating model for a contemporary art gallery — visitor journey design, community engagement programming, partner coordination, and collector lifecycle experiences across two distinct markets. Designed inclusive entry-point experiences to expand access for first-time and younger collectors. Sustained operations through market transitions and COVID disruption through operating model discipline.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-org">Foster Brand</span>
+      <span class="job-date">07/2016 – 03/2019 &nbsp;·&nbsp; Brooklyn, NY</span>
+    </div>
+    <div class="job-title">Principal Design Strategist</div>
+    <ul class="bullets">
+      <li>Led end-to-end design strategy and research for a new market offering — user research, assumption testing, synthesis, and go-to-market readiness in three months. <strong>Investor roadshow secured first right of refusal from a national beverage distributor.</strong> Designed mid-market B2B onboarding services with repeatable governance patterns improving delivery clarity.</li>
+    </ul>
+  </div>
+
+  <div class="sec-label">Additional Experience</div>
+  <div class="addl-item">
+    <div class="addl-org">Alanne International &nbsp;·&nbsp; <span style="font-weight:400;text-transform:none;font-size:7.5pt;">Founder &amp; Principal · Design Strategy &amp; Service Design Consultancy · 2005–Present</span></div>
+    <div class="addl-desc">Founded and led an independent consultancy delivering organizational service design, research-driven strategy, and experience transformation across 25+ engagements — corporate, nonprofit, startup, and public sector over 20+ years. Clients include Kroger, GardaWorld, BET/Viacom, RadioOne, and Lamont Bishop Gallery.</div>
+  </div>
+  <div class="addl-item">
+    <div class="addl-org">City of Oakland — Summer Design School &nbsp;·&nbsp; <span style="font-weight:400;text-transform:none;font-size:7.5pt;">Design Strategy Coach + Facilitator</span></div>
+    <div class="addl-desc">Led a cross-government cohort (US, UK, Australia) through a 4-day human-centered design sprint on a live civic challenge. Solution selected for real-world implementation by the Mayor of Oakland.</div>
+  </div>
+  <div class="addl-item">
+    <div class="addl-desc" style="color:var(--mid);font-size:7pt;">Earlier: DC Commission on the Arts &amp; Humanities · Comcast/Radio One (Assistant to VP) · Viacom/BET Interactive · Wells Fargo Private Client Services</div>
+  </div>
+
+  <div class="sec-label">Education &amp; Certifications</div>
+  <div class="edu-row">
+    <div><div class="edu-deg">MBA, Design Strategy</div><div class="edu-school">California College of the Arts, San Francisco &nbsp;·&nbsp; Ranked #2 Graduate Design Program Globally</div></div>
+    <div class="edu-year">2014</div>
+  </div>
+  <div class="edu-row">
+    <div><div class="edu-deg">BBA, International Business &amp; Marketing</div><div class="edu-school">Howard University, Washington, DC</div></div>
+    <div class="edu-year">2008</div>
+  </div>
+  <div class="certs"><strong>Certifications:</strong> LUMA Practitioner &amp; Facilitator — Human-Centered Design (LUMA Institute) &nbsp;·&nbsp; MIT xPro — Understanding Organizational Strategy and Capabilities</div>
+
+  <div class="sec-label">Leadership &amp; Affiliations</div>
+  <div class="certs">Service Design Network, Member &nbsp;·&nbsp; AIGA, Member &nbsp;·&nbsp; Special Olympics of DC, Volunteer &nbsp;·&nbsp; SGI-USA, Vice Region Leader, Young Women's Division (2015–2017)</div>
+
+  <div class="resume-footer">
+    <span>Cara A. Brown, MBA</span><span>Page 2 of 2</span><span>caraabrown.com</span>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
